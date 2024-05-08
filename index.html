@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="index.css" rel="stylesheet" type="text/css" />
+
+    <title>Personal Webpage</title>
+  </head>
+
+  <body>
+    <div class="header-section">
+      <h1 id="start" class="header-section__header">
+        Lethabo Kaphioa's Webpage
+      </h1>
+    </div>
+    <div class="profile-picture__wrapper">
+      <img
+        src="https://h-o-m-e.org/wp-content/uploads/2022/04/Blank-Profile-Picture-1.jpg"
+        alt=""
+        id="profile-picture"
+        class="profile-picture"
+      />
+    </div>
+    <!-- below is the heading of the page which i used the h1 tag for i have given  the id start
+    and the sub headings i have given the tag h2  -->
+    <section class="bio">
+      <h2 class="bio__header">Bio</h2>
+
+      <!-- the bio paragraph i have given the it the id bio because it is related to the bio  -->
+
+      <p id="bio__paragraph">
+        My name is Lethabo Kaphioa . i Matriculated from Leaders Christian
+        Academy. i have experience in Digital Marketing (managing business
+        Facebook , Instagram and Google Ads and accounts ) i am Currently honing
+        and developing my web developing and sofware engineering skills at
+        hyperion dev. I love computers and technology one of the things i always
+        considered to be cool and especially how quickly its been developing i
+        also love non fiction books that help me understand how the world works
+        or how i work and the thing i love most is finding out what i am capable
+        of or doing things that help me become better even though sometimes it
+        can difficult too. the thing that motivates my actions is finding out
+        how much i can truly give to the world if i can i can make a meaningful
+        impact in my career or field and knowing or understanding something i
+        never knew about the things i am interested in .
+      </p>
+      <br />
+    </section>
+
+    <!-- below is the skills  and competencies section which in which the heading has a h2 tag and with the id skills and which is followed by the skills and competencies using an unordered list -->
+    <section class="skills">
+      <h2 id="skills__header">Skills and Competencies</h2>
+
+      <ul>
+        <li>Understanding of Facebook Business Manager and Google</li>
+        <li>
+          Experience with Basic html (High School subject Computer Applications
+          Technology (CAT))
+        </li>
+      </ul>
+    </section>
+    <!-- below is the education section with a h2 tag with the id tag education  and the years of education organized in a an unordered list -->
+    <section class="education">
+      <h2 id="education__header" class="education__header">Education</h2>
+
+      <ul>
+        <li>2022 Studied Business Mangement for a year at Unisa</li>
+        <li>2019 Studied a Onine course on Facebook and Instagram Marketing</li>
+        <li>2018 Passed Matric with a Distinction in Math literacy</li>
+      </ul>
+    </section>
+    <!--below is the contact details the heading using a h2 tag with a Contact id tag and the information is shown using  p tag followed by a break tag -->
+    <section class="contact-details">
+      <h2 id="contact-details__header" class="">Contact details</h2>
+      <p class="contact-details__paragraph--number">
+        My Phone Number : 0627134177
+      </p>
+      <p class="contact-details__paragraph--email">
+        Email Address : lethabokatlego120@gmail.com
+      </p>
+      <br />
+    </section>
+    <!--below is the search bar i have created allowing the user to search the webpage for a detail or information and the for the label is Searching and the input type site_search
+    then it is followed by a button that has the word search on it 
+    and i am using the get method to store the information-->
+
+    <form method="get" class="search">
+      <label for="searching" class="search__label">Search the webpage :</label>
+      <input type="Search" id="site_search" name="searching" title="searching" class="search__input--search" />
+
+      <button type="button" class="search__buttons">Search</button>
+
+      <!--below is a form that will allow users to put information inorder to contact me  the information is private/sensitive information so i am using the post method to store the information-->
+    </form>
+
+    <form class="user-info" method="post">
+      <label for="name-text" class="user-info__label"> Name </label>
+      <input title="name-text" type="text" class="user-info__input--text" />
+      <br />
+
+      <label for="email-text" class="user-info__label"> Email Address</label>
+      <input
+        title="email-text"
+        type="text"
+        class="user-info__input--text"
+      /><br />
+
+      <label class="user-info__label"> Message</label><br />
+      <textarea
+        title="message-text"
+        name=""
+        rows="4"
+        cols="50"
+        class="user-info__textarea"
+      ></textarea>
+      <input type="submit" value="submit" class="user-info__button--submit" />
+    </form>
+  </body>
+</html>

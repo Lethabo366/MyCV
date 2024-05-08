@@ -1,0 +1,61 @@
+.profile-picture__wrapper {
+  text-align: center;
+}
+
+.profile-picture {
+  max-width: 800px;
+  max-height: 600px;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(245, 241, 241);
+  padding: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header-section {
+  background-color: #3495da;
+  text-align: center;
+  padding: 100px 50px;
+}
+
+.header-section__header {
+  color: whitesmoke;
+  font-size: 70px;
+}
+
+.bio {
+  background-color: light;
+  box-sizing: border-box;
+  margin: 40px;
+  padding: 200px 100px;
+}
+
+.skills {
+  background-color: midnightblue;
+  box-sizing: border-box;
+  max-width: 800px;
+  margin: 40px;
+  padding: 200px 100px;
+}
+
+.education {
+  background-color: lightblue;
+  box-sizing: border-box;
+  max-width: 800px;
+  margin: 40px 40px 40px 400px;
+  padding: 200px 100px;
+}
+
+input[type=text] {
+  box-sizing: border-box;
+  border: 3px solid grey;
+  border-radius: 3px;
+}
+
+.search__input--search {
+  box-sizing: border-box;
+  border: 3px solid grey;
+  border-radius: 4px;
+}/*# sourceMappingURL=index.css.map */
